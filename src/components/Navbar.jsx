@@ -19,7 +19,7 @@ function Navbar() {
       onMouseLeave={() => setIsExpanded(false)}
     >
       <div className="logo-container">
-        <img src="/logo.png" alt="Ascend Logo" className="navbar-logo" />
+        <img src="logo.png" alt="Ascend Logo" className="navbar-logo" />
       </div>
       <ul>
         <li>

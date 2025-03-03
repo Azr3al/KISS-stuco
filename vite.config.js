@@ -2,7 +2,6 @@ import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
 export default defineConfig({
-  base: "/KISS-stuco", //repo name
   resolve: {
     alias: {
       '@components': '/src/components',
@@ -13,4 +12,5 @@ export default defineConfig({
     hmr: true,
   },
   plugins: [react()],
+  base: "/kiss-stuco"
 });

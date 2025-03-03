@@ -137,7 +137,7 @@ function Values() {
             transition={{ duration: 0.8, delay: 1.5 }}
         >
           <h2>Join Our Movement</h2>
-          <p>Together, we can develop a student council that really represents and upfts every student.</p>
+          <p>Together, we can develop a student council that really represents and uplifts every student.</p>
           <button className="values-cta-button">Vote for KISS</button>
         </motion.div>
       </div>

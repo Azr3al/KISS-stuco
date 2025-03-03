@@ -16,7 +16,7 @@ function Policies() {
       </motion.div>
 
       <motion.img
-        src="/policybanner.jpg"
+        src="policybanner.jpg"
         alt="Policy Banner"
         className="policy-banner"
         initial={{ opacity: 0, scale: 0.9 }}
