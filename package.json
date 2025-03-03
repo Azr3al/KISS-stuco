@@ -1,10 +1,28 @@
 {
-  "name": "project",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "KISS-Stuco",
+  "homepage": "https://azr3al.github.io/KISS-stuco/",
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build",
+    "base": "/KISS-stuco"
   },
-  "private": true
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "gh-pages": "^6.3.0",
+    "prettier": "^3.3.1",
+    "vite": "^6.2.0"
+  },
+  "dependencies": {
+    "framer-motion": "^12.4.7",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^5.5.0",
+    "react-router-dom": "^7.2.0",
+    "react-transition-group": "^4.4.5"
+  }
 }
